@@ -9,3 +9,4 @@ E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.csproj.GenerateResource.cache
 E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.csproj.CoreCompileInputs.cache
 E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.exe
 E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.pdb
+E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.GameWindow.resources

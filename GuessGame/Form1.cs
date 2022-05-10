@@ -12,9 +12,11 @@ namespace GuessGame
 {
     public partial class Form1 : Form
     {
+        GameWindow gameWindow;
         public Form1()
         {
             InitializeComponent();
+            gameWindow = new GameWindow();
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
@@ -46,6 +48,9 @@ namespace GuessGame
                 MessageBox.Show( "Please select a level", "Error");
                 return;
             }
+
+            gameWindow.Show();
+            this.Hide();
         }
     }
 }
