@@ -21,5 +21,31 @@ namespace GuessGame
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string username = this.username_tb.Text;
+            string password = this.password_tb.Text;
+            bool isPrimarySelected = this.primary_rb.Checked;
+            bool isSecondarySelected = this.secondary_rb.Checked;
+
+            if(username.Trim().Length == 0 || password.Trim().Length == 0)
+            {
+                MessageBox.Show("Please enter your credentials", "Error");
+                return;
+            }
+
+            if(username != "izaan" || password != "12345678")
+            {
+                MessageBox.Show("Wrong credentials", "Error");
+                return;
+            }
+
+            if(!isPrimarySelected && !isSecondarySelected)
+            {
+                MessageBox.Show( "Please select a level", "Error");
+                return;
+            }
+        }
     }
 }

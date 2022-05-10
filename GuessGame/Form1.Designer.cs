@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.username_tb = new System.Windows.Forms.TextBox();
+            this.password_tb = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.primary_rb = new System.Windows.Forms.RadioButton();
+            this.secondary_rb = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -43,23 +43,23 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(122, 102);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Email";
+            this.label1.Text = "Username";
             // 
-            // textBox1
+            // username_tb
             // 
-            this.textBox1.Location = new System.Drawing.Point(125, 119);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(326, 20);
-            this.textBox1.TabIndex = 1;
+            this.username_tb.Location = new System.Drawing.Point(125, 119);
+            this.username_tb.Name = "username_tb";
+            this.username_tb.Size = new System.Drawing.Size(326, 20);
+            this.username_tb.TabIndex = 1;
             // 
-            // textBox2
+            // password_tb
             // 
-            this.textBox2.Location = new System.Drawing.Point(125, 179);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(326, 20);
-            this.textBox2.TabIndex = 3;
+            this.password_tb.Location = new System.Drawing.Point(125, 179);
+            this.password_tb.Name = "password_tb";
+            this.password_tb.Size = new System.Drawing.Size(326, 20);
+            this.password_tb.TabIndex = 3;
             // 
             // label2
             // 
@@ -78,29 +78,30 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "Play";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // radioButton1
+            // primary_rb
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(125, 219);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(88, 17);
-            this.radioButton1.TabIndex = 5;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Primary Level";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.primary_rb.AutoSize = true;
+            this.primary_rb.Location = new System.Drawing.Point(125, 219);
+            this.primary_rb.Name = "primary_rb";
+            this.primary_rb.Size = new System.Drawing.Size(88, 17);
+            this.primary_rb.TabIndex = 5;
+            this.primary_rb.TabStop = true;
+            this.primary_rb.Text = "Primary Level";
+            this.primary_rb.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // secondary_rb
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(219, 219);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(105, 17);
-            this.radioButton2.TabIndex = 6;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Secondary Level";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.secondary_rb.AutoSize = true;
+            this.secondary_rb.Location = new System.Drawing.Point(219, 219);
+            this.secondary_rb.Name = "secondary_rb";
+            this.secondary_rb.Size = new System.Drawing.Size(105, 17);
+            this.secondary_rb.TabIndex = 6;
+            this.secondary_rb.TabStop = true;
+            this.secondary_rb.Text = "Secondary Level";
+            this.secondary_rb.UseVisualStyleBackColor = true;
+            this.secondary_rb.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // button2
             // 
@@ -117,12 +118,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(562, 410);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.secondary_rb);
+            this.Controls.Add(this.primary_rb);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.password_tb);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.username_tb);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
@@ -136,12 +137,12 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox username_tb;
+        private System.Windows.Forms.TextBox password_tb;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton primary_rb;
+        private System.Windows.Forms.RadioButton secondary_rb;
         private System.Windows.Forms.Button button2;
     }
 }
