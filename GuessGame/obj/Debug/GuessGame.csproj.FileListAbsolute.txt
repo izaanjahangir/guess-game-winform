@@ -1,0 +1,11 @@
+E:\csharp\GuessGame\GuessGame\bin\Debug\GuessGame.exe.config
+E:\csharp\GuessGame\GuessGame\bin\Debug\GuessGame.exe
+E:\csharp\GuessGame\GuessGame\bin\Debug\GuessGame.pdb
+E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.csproj.AssemblyReference.cache
+E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.csproj.SuggestedBindingRedirects.cache
+E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.Form1.resources
+E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.Properties.Resources.resources
+E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.csproj.GenerateResource.cache
+E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.csproj.CoreCompileInputs.cache
+E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.exe
+E:\csharp\GuessGame\GuessGame\obj\Debug\GuessGame.pdb

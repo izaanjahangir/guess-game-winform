@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "29acb63a-a469-4dc0-80d2-1e5e1900efb5": {
+      "ProjectGuid": "29acb63a-a469-4dc0-80d2-1e5e1900efb5",
+      "DisplayName": "GuessGame",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
