@@ -49,8 +49,16 @@ namespace GuessGame
                 return;
             }
 
+            gameWindow.username = username;
+            gameWindow.selectedLevel = isPrimarySelected? "primary" : "secondary";
+
             gameWindow.Show();
             this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
